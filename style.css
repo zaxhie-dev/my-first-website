@@ -29,3 +29,19 @@ body {
   display: flex;
   gap: 28px;
 }
+.categoryBar {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px 0 30px;
+  background-color: #ffffff;
+}
+.categoryBar button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 28px;
+  background-color: #f3f2ef;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
