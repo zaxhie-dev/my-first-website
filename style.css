@@ -1,0 +1,31 @@
+body {
+    background-color: #FFFBEB;
+  }
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 55px;
+  background-color: #ffffff;
+}
+.brand h1 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    color: #1f1b18;
+  }
+.brand p {
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #d86f00;
+  }
+.searchBar input {
+    width: 520px;
+    padding: 16px 24px;
+    border: 1px solid #e8e5df;
+    border-radius: 40px;
+    font-size: 16px;
+  }
+.actionButtons {
+  display: flex;
+  gap: 28px;
+}
