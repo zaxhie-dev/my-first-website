@@ -263,3 +263,184 @@ body {
     text-transform: uppercase;
     color: #aaa09a;
   }
+  .viewButton {
+    background-color: #e67800;
+    color: white;
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 12px 28px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .productTopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+    background-color: #ffffff;
+  }
+  
+  .backButton {
+    text-decoration: none;
+    color: #1f1b18;
+    font-size: 28px;
+  }
+  
+  .productTopIcons {
+    display: flex;
+    gap: 18px;
+  }
+  
+  .productTopIcons a {
+    text-decoration: none;
+    color: #1f1b18;
+    font-size: 22px;
+  }
+  
+  .productImageSection {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .productImageSection img {
+    width: 320px;
+    height: auto;
+  }
+  
+  .productInfoSection {
+    background-color: #FFFBEB;
+    padding: 32px 24px 60px;
+  }
+  
+  .productTopInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+  }
+  
+  .conditionLabel {
+    display: inline-block;
+    background-color: #f2f0e8;
+    padding: 8px 14px;
+    border-radius: 18px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  
+  .productTextBlock h1 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin: 0 0 10px;
+    color: #1f1b18;
+  }
+  
+  .productAuthor {
+    font-size: 18px;
+    color: #6f6861;
+  }
+  
+  .productActionBox {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background-color: #f8f8f8;
+    padding: 14px;
+  }
+  
+  .addToCartButton {
+    background-color: #1f1b18;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 42px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+  
+  .wishButton {
+    background-color: white;
+    border: 1px solid #d8d0c5;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    font-size: 20px;
+  }
+  
+  .priceSection {
+    border-top: 1px solid #e8e0d3;
+    padding-top: 24px;
+    margin-bottom: 28px;
+  }
+  
+  .priceSection h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin: 0;
+    color: #1f1b18;
+  }
+  
+  .priceSection span {
+    font-size: 18px;
+    color: #7f776e;
+  }
+  
+  .descriptionSection {
+    margin-bottom: 28px;
+  }
+  
+  .descriptionSection h3,
+  .bookDetailsBox h3,
+  .conditionBox h3 {
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #5f584f;
+    margin-bottom: 14px;
+  }
+  
+  .descriptionSection p {
+    color: #4e4943;
+    line-height: 1.6;
+  }
+  
+  .bookDetailsBox {
+    border: 1px solid #e8e0d3;
+    border-radius: 22px;
+    padding: 24px;
+    margin-bottom: 28px;
+  }
+  
+  .detailRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #eee4d6;
+  }
+  
+  .detailRow:last-child {
+    border-bottom: none;
+  }
+  
+  .detailRow p {
+    color: #4e4943;
+  }
+  
+  .conditionBox {
+    border: 1px solid #efcf72;
+    border-radius: 22px;
+    padding: 24px;
+  }
+  
+  .conditionBox h3 {
+    color: #9b5a21;
+  }
+  
+  .conditionBox p {
+    color: #4e4943;
+    line-height: 1.6;
+  }
